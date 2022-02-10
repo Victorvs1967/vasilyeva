@@ -20,12 +20,12 @@
               ?>
               
               <div class="box <?php the_field('position'); ?>">
-                <a class="avatar" href="<?php echo home_url('team-advance'); ?>">
+                <a class="avatar" href="<?php the_field('link'); ?>">
                   <img class="on" src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_field('title'); ?>">
                   <img class="off" src="<?php the_field('shadow_img'); ?>" alt="<?php the_field('title'); ?>">
                 </a>
                 <div class="about">
-                  <strong><a href="<?php echo home_url('team-advance'); ?>"><?php the_field('name'); ?></a></strong>
+                  <strong><a href="<?php the_field('link'); ?>"><?php the_field('name'); ?></a></strong>
                   <span><?php the_field('speciality'); ?></span>
                 </div>
               </div>

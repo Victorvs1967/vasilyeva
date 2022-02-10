@@ -6,10 +6,9 @@
       <div class="person-holder">
 
         <?php 
-          $post = the_post([
+          the_post([
             'post_type' => 'stuff',
           ]); 
-          setup_postdata($post);
         ?>
 
         <a class="avatar" href="<?php echo home_url('team'); ?>">

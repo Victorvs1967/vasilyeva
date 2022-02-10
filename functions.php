@@ -60,7 +60,7 @@ function register_post_types() {
 		],
 		'public'              => false,
 		'show_ui'             => true,
-		'show_in_menu'        => null, // показывать ли в меню адмнки
+		'show_in_menu'        => null, // показывать ли в меню админки
 		'menu_position'       => null,
 		'menu_icon'           => 'dashicons-businessman',
 		'hierarchical'        => false,

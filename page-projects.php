@@ -19,7 +19,7 @@
               ?>
 
               <li>
-                <a href="<?php echo get_template_directory_uri(); ?>/<?php the_field('link'); ?>">
+                <a href="<?php the_field('link'); ?>">
                   <img src="<?php the_post_thumbnail_url(); ?>" alt="image"></a>
                 <div class="<?php the_field('title'); ?>">
                   <strong><?php the_title(); ?></strong>
